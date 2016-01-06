@@ -2,11 +2,14 @@
 .container { width: 100%; min-width: 1024px; color: #343434; font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif; line-height: 1.5; font-weight: 300; }
 
 .landrow {width: 100%; }
-.landblock { width: 1024px; margin: 0 auto; padding: 0 15px; }
+.landblock { width: 1024px; margin: 0 auto; }
 .landblock .center, .landrow .center { display: block; text-align: center; width: 100%; }
+.off { display: none; }
 
-.nav { background-color: #343434; padding: 8px 0; color: #d2d2d2; }
-.nav a { margin-right: 30px; font-weight:400; }
+.nav { background-color: #343434; color: #d2d2d2; }
+.nav a { padding: 0 15px; font-weight:400; text-decoration: none; color: inherit; }
+.nav a:first-child { padding-left: 0; }
+.nav a:last-child { padding-right: 0; }
 
 .header { background-color: #f5f5f5; }
 .header .logo { font-size: 54px; display: inline-block; }
@@ -27,7 +30,7 @@
 .fuga .left .logo {  height: 100%; }
 .fuga .left .logo img { margin-top: 30px; }
 .jumbotron .controls { text-align: center;  height: 40px; padding-top: 10px; }
-.jumbotron .controls i { margin: 0 8px; font-size: 10px; color: white; cursor: pointer; }
+.jumbotron .controls i { display: inline-block; padding: 10px 8px; font-size: 10px; color: white; cursor: pointer; }
 
 
 /* What are we do */
@@ -48,7 +51,7 @@
 /* Behind the scenes */
 .bts { padding: 20px 0; }
 .bts .title { font-size: 50px; margin-bottom: 40px; }
-.bts .boxes { margin: 0 auto; text-align: center; padding-left: 40px; }
+.bts .boxes { margin: 0 auto; text-align: center; }
 .bts .box { text-align: left; display: inline-block; font-size: 30px; margin-right: 30px; margin-bottom: 40px; }
 .bts .box .name {display: inline-block; vertical-align: top; }
 .bts .box img { width: 80px; height: 80px; margin-right: 10px; display: inline-block; border-radius: 50%; }
