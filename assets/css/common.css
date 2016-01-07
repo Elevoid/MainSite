@@ -4,13 +4,18 @@
 .landrow {width: 100%; }
 .landblock { width: 1024px; margin: 0 auto; }
 .landblock .center, .landrow .center { display: block; text-align: center; width: 100%; }
+.landblock .hr, .landrow .hr { margin: 0 auto; border-bottom: #e6e3e3 1px solid; margin: 0 -60px;}
+.landblock .title, .landrow .title { font-size: 50px; margin-bottom: 40px; display: inline-block; }
 .off { display: none; }
 
-.nav { background-color: #343434; color: #d2d2d2; }
+/* Navigation */
+.nav { background-color: #343434; color: #d2d2d2; position: fixed; height: 30; line-height: 30px; font-size: 16px; }
 .nav a { padding: 0 15px; font-weight:400; text-decoration: none; color: inherit; }
 .nav a:first-child { padding-left: 0; }
 .nav a:last-child { padding-right: 0; }
+.nav-spacer { height: 30px; }
 
+/* Header */
 .header { background-color: #f5f5f5; }
 .header .logo { font-size: 54px; display: inline-block; }
 .header .logo span {font-weight: 500;}
@@ -35,22 +40,27 @@
 
 /* What are we do */
 .wawd { padding: 20px 0;  }
-.wawd .title { font-size: 50px; margin-bottom: 40px; }
 .wawd .boxes { margin: 0 auto; text-align: center; }
 .wawd .box { width: 180px; margin: 15px; padding: 15px; display: inline-block; font-size: 40px; }
-.wawd .box i { font-size: 50px;  background-color: white; border-radius: 50%; padding: 20px; background-color: #f2f6ff; margin-bottom: 20px; }
+.wawd .box i { font-size: 50px; border-radius: 50%; padding: 20px; background-color: #f2f6ff; margin-bottom: 20px; }
 
-/* Technologies that we use */
-.ttwu { padding: 20px 0;  background-color: #f2f6ff; }
-.ttwu .title { font-size: 50px; margin-bottom: 40px; }
-.ttwu .boxes { margin: 0 auto; text-align: center; }
-.ttwu .box { text-align: left; display: inline-block; font-size: 30px; padding-right: 40px; margin-bottom: 40px; }
-.ttwu .box i, .ttwu .box img { font-size: 40px; margin-right: 10px; width: 40px; height: 40px; }
-.ttwu .amm { font-size: 30px; }
+/* How we do it */
+.hwdi { padding: 20px 0; background-color: #f2f6ff; }
+.hwdi .boxes { margin: 0 auto; width: 512px;}
+.hwdi .box { width: 100%; margin-bottom: 20px; font-size: 24px; display: block; text-align: left; }
+.hwdi .box:after { content: " "; display: block; height: 0; clear: both;}
+.hwdi .box .text { margin-left: 120px; display: block; float: none; }
+.hwdi .box i { float: left; font-size: 70px; background-color: white; border-radius: 50%; padding: 20px; width: 70px; height: 70px; }
+
+/* What technologies we use */
+.wtwe { padding: 20px 0;  background-color: #f2f6ff; }
+.wtwe .boxes { margin: 0 auto; text-align: center; }
+.wtwe .box { text-align: left; display: inline-block; font-size: 30px; padding-right: 40px; margin-bottom: 40px; }
+.wtwe .box i, .ttwu .box img { font-size: 40px; margin-right: 10px; width: 40px; height: 40px; }
+.wtwe .amm { font-size: 30px; }
 
 /* Behind the scenes */
 .bts { padding: 20px 0; }
-.bts .title { font-size: 50px; margin-bottom: 40px; }
 .bts .boxes { margin: 0 auto; text-align: center; }
 .bts .box { text-align: left; display: inline-block; font-size: 30px; margin-right: 30px; margin-bottom: 40px; }
 .bts .box .name {display: inline-block; vertical-align: top; }
