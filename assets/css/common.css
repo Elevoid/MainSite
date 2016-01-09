@@ -56,7 +56,7 @@
 .wtwe { padding: 20px 0;  background-color: #f2f6ff; }
 .wtwe .boxes { margin: 0 auto; text-align: center; }
 .wtwe .box { text-align: left; display: inline-block; font-size: 30px; padding-right: 40px; margin-bottom: 40px; }
-.wtwe .box i, .ttwu .box img { font-size: 40px; margin-right: 10px; width: 40px; height: 40px; }
+.wtwe .box i, .wtwe .box img { font-size: 40px; margin-right: 10px; width: 40px; height: 40px; }
 .wtwe .amm { font-size: 30px; }
 
 /* Behind the scenes */
