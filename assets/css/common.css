@@ -1,5 +1,5 @@
 * { margin: 0; padding: 0; }
-.container { width: 100%; min-width: 1024px; color: #343434; font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif; line-height: 1.5; font-weight: 300; }
+.container { width: 100%; min-width: 1024px; color: #343434; font-family: "LatoWeb","Helvetica Neue",Helvetica,Arial,sans-serif; line-height: 1.5; font-weight: 300; }
 
 .landrow {width: 100%; }
 .landblock { width: 1024px; margin: 0 auto; }
@@ -18,7 +18,7 @@
 /* Header */
 .header { background-color: #f5f5f5; }
 .header .logo { font-size: 54px; display: inline-block; }
-.header .logo span {font-weight: 500;}
+.header .logo span {font-weight: 400;}
 .header .desc { font-size: 14px; display: inline-block; margin-left: 20px; color: #707070; }
 
 /* Jumbotron */
@@ -26,7 +26,7 @@
 .products-block { padding: 40px 0 0 0; box-sizing: border-box; }
 .products-block h3 { font-size: 28px; margin: 0; padding: 0; }
 .products-block h4 { font-size: 20px; font-weight: 400; margin: 0 0 8px 0; padding: 0; }
-.products-block p { font-size: 16px; font-weight: 300;  margin: 0 0 8px 0; }
+.products-block p { font-size: 16px; font-weight: 300;  margin: 0 0 8px 0; line-height: 18px; }
 .products-block sup { font-size: 16px; font-weight: 300; }
 .products-block:after { content: " "; display: block; height: 0; clear: both;}
 .products-block .left, .products-block .right { display: block; width: 50%; height: 200px; padding: 20px 30px; float: left; box-sizing: border-box; }
@@ -34,7 +34,7 @@
 .products-block .right { background-color: rgba(245, 245, 245, 0.5);  margin: 0; }
 .fuga .left .logo {  height: 100%; }
 .fuga .left .logo img { margin-top: 30px; }
-.jumbotron .controls { text-align: center;  height: 40px; padding-top: 10px; }
+.jumbotron .controls { text-align: center;  height: 30px; padding-top: 10px; }
 .jumbotron .controls i { display: inline-block; padding: 10px 8px; font-size: 10px; color: white; cursor: pointer; }
 
 
@@ -72,7 +72,7 @@
 .footer-block:after { content: " "; display: block; height: 0; clear: both; }
 .footer-block .column { float: left; width: 33.3333%;  }
 .footer-block .logo { font-size: 28px; font-weight: 300; }
-.footer-block .logo span { font-weight: 500; }
+.footer-block .logo span { font-weight: 400; }
 
 .footer-block .social .fa {font-size: 28px; }
 .footer-block .contact h3 {margin-bottom: 10px; }
