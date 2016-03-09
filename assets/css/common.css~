@@ -8,8 +8,6 @@
 .landblock .title, .landrow .title { font-size: 50px; margin-bottom: 40px; display: inline-block; }
 .off { display: none; }
 
-input, select, textarea, button { outline: none; border: 1px solid #a6a6a6; padding: 5px; font-size: 16px; font-weight: 300; }
-
 /* Navigation */
 .nav { background-color: #343434; color: #d2d2d2; position: fixed; height: 30; line-height: 30px; font-size: 16px; }
 .nav a { padding: 0 15px; font-weight:400; text-decoration: none; color: inherit; }
@@ -43,9 +41,9 @@ input, select, textarea, button { outline: none; border: 1px solid #a6a6a6; padd
 /* What are we do */
 .wawd { padding: 20px 0;  }
 .wawd .boxes { margin: 0 auto; text-align: center; }
-.wawd .box { width: 200px; margin: 10px 40px; padding: 15px; display: inline-block; vertical-align: top; font-size: 40px; text-align: center; }
+.wawd .box { width: 180px; margin: 15px 40px; padding: 15px; display: inline-block; font-size: 40px; }
 .wawd .box i { font-size: 60px; border-radius: 50%; padding: 20px; background-color: #f2f6ff; margin-bottom: 20px; }
-.wawd .box p { width: 240px; font-size: 18px;  text-align: left; }
+.wawd .box p { width: 200px; font-size: 18px; text-align: justify;  }
 
 /* How we do it */
 .hwdi { padding: 20px 0; background-color: #f2f6ff; }
@@ -70,17 +68,6 @@ input, select, textarea, button { outline: none; border: 1px solid #a6a6a6; padd
 .bts .box img { width: 120px; height: 120px; margin: 0; display: inline-block; border-radius: 50%; }
 .bts .box span { font-size: 16px; display: block; }
 
-/* Feedback */
-.fb { padding: 20px 0; }
-.fb .boxes { margin: 0 auto; text-align: center; }
-.fb .box { width: 300px; display: inline-block; margin-right: 30px; margin-bottom: 40px; text-align: left; vertical-align: top; }
-.fb .box a { text-decoration: none; color: inherit; }
-.fb .box p { margin: 5px 0; }
-.fb .box form * { margin: 5px 0; width: 300px; }
-.fb .box form textarea { height: 140px; }
-.fb .box form button { width: 312px; }
-
-/* Footer */
 .footer { background-color: #343434; color: #f6f6f6; font-weight:400; }
 .footer-block { padding: 15px 0;  }
 .footer-block:after { content: " "; display: block; height: 0; clear: both; }
@@ -88,8 +75,7 @@ input, select, textarea, button { outline: none; border: 1px solid #a6a6a6; padd
 .footer-block .logo { font-size: 28px; font-weight: 300; }
 .footer-block .logo span { font-weight: 400; }
 
-.footer-block .social .fa {font-size: 28px; margin-top: 10px; }
-.footer-block .social a { text-decoration: none; color: inherit; }
+.footer-block .social .fa {font-size: 28px; }
 .footer-block .contact h3 {margin-bottom: 10px; }
 .footer-block .contact p { display: block; margin-bottom: 10px; border: #f6f6f6 1px solid; border-radius: 5px; padding-left: 5px; }
 .footer-block .contact a { text-decoration: none; color: inherit; }
